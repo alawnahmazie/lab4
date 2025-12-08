@@ -9,7 +9,7 @@ body {font-family: Georgia, serif;
 }
 
 header {text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
     background-color: #f0f0f0;
     border-bottom: 1px solid #ccc;
 }
@@ -17,17 +17,17 @@ header {text-align: center;
 h1 {margin: 0;
     font-size: clamp(28px, 5vw, 40px);
     color: hsla(0, 100%, 8%, 1);
-    padding-top: 12px;
+    padding-top: 0.75rem;
 }
 
-.tagline {margin-top: 5px;
+.tagline {margin-top: 0.313rem;
     font-size: clamp(14px, 3vw, 18px);
     color: gray;
     font-style: italic;
 }
 
 nav {background-color: hsla(0, 100%, 8%, 1);
-    padding: 30px;
+    padding: 1.875rem;
 }
 
 nav ul {list-style-type: none;
@@ -47,7 +47,7 @@ nav li {display: inline;
 nav a {color: white;
     text-decoration: none;
     font-size: 18px;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     display: inline-block;
     transition: background-color 0.3s;
 }
@@ -57,21 +57,21 @@ nav a:hover {background-color: rgba(255, 255, 255, 0.1);
 }
 
 img {display: block;
-    margin: 30px auto;
+    margin: 1.875rem auto;
     width: 100%;
     max-width: 400px;
     height: auto;
-    border: 18px solid hsla(0, 100%, 8%, 1);
+    border: 1.125rem solid hsla(0, 100%, 8%, 1);
 }
 
 main {max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 h2 {text-align: center;
     margin: 0;
-    padding: 30px 0 20px;
+    padding: 1.875rem 0 1.25rem;
     font-size: clamp(28px, 5vw, 40px);
     color: hsla(0, 100%, 8%, 1);
     font-style: italic;
@@ -94,7 +94,7 @@ hr {margin: 40px auto;
 
 h3 {text-align: center;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 1.875rem;
     font-size: clamp(18px, 3vw, 20px);
     color: hsla(0, 100%, 8%, 1);
     font-style: italic;
@@ -109,20 +109,20 @@ main > p em {font-weight: bold;
 #list1 { text-align: center;
     background-color: white;
     color: black;
-    padding: 10px;
+    padding: 0.625rem;
     list-style-type: disc;
     list-style-position: inside;
-    margin: 10px auto;
+    margin: 0.625rem auto;
     max-width: 600px;
 }
 
-#list1 li { display: block;
+.list1 li { display: block;
     font-size: clamp(14px, 2vw, 16px);
-    padding: 5px 0;
+    padding: 0.313rem 0;
     list-style-position: inside;
 }
 
-#list1 a { color: #0066cc;
+.list1 a { color: #0066cc;
     text-decoration: none;
 }
 
@@ -132,61 +132,61 @@ main > p em {font-weight: bold;
 #li2 {text-align: center;
     background-color: white;
     color: black;
-    padding: 10px;
+    padding: 0.625rem;
     list-style-position: inside;
-    margin: 10px auto;
+    margin: 0.625rem auto;
     max-width: 600px;
 }
 
-#li2 li {display: block;
+.li2 li {display: block;
     font-size: clamp(14px, 2vw, 16px);
-    padding: 5px 0;
+    padding: 0.313rem 0;
 }
 
 footer {text-align: center;
-    margin: 40px 0 0;
+    margin: 2.5rem 0 0;
     font-size: clamp(12px, 2vw, 16px);
     background-color: hsla(0, 100%, 8%, 1);
     color: white;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 /* Tablet breakpoint */
 @media (max-width: 768px) {
-    header {padding: 15px;
+    header {padding: 0.938rem;
     }
 
-    nav {padding: 20px 10px;
+    nav {padding: 1.25rem 0.625rem;
     }
 
-    nav ul {gap: 10px;
+    nav ul {gap: 0.625rem;
     }
 
     nav a {font-size: 16px;
-        padding: 8px 15px;
+        padding: 0.5rem 0.938rem;
     }
 
-    img {border-width: 12px;
-        margin: 20px auto;
+    img {border-width: 0.75rem;
+        margin: 1.25rem auto;
     }
 
-    main {padding: 15px;
+    main {padding: 0.938rem;
     }
 
     main p {text-align: left;
-        padding: 0 10px;
+        padding: 0 0.625rem;
     }
 
-    hr {margin: 30px auto;
+    hr {margin: 1.875rem auto;
     }
 }
 
 /* Mobile breakpoint */
 @media (max-width: 480px) {
-    header {padding: 10px;
+    header {padding: 0.625rem;
     }
 
-    nav {padding: 15px 5px;
+    nav {padding: 0.938rem 0.313rem;
     }
 
     nav ul {flex-direction: column;
@@ -194,29 +194,29 @@ footer {text-align: center;
     }
 
     nav a {display: block;
-        padding: 12px;
+        padding: 0.75rem;
         font-size: 16px;
     }
 
-    img {border-width: 8px;
-        margin: 15px auto;
+    img {border-width: 0.5rem;
+        margin: 0.938rem auto;
     }
 
-    main {padding: 10px;
+    main {padding: 0.625rem;
     }
 
-    main p {padding: 0 5px;
+    main p {padding: 0 0.313rem;
     }
 
-    h2 {padding: 20px 0 15px;
+    h2 {padding: 1.25rem 0 0.938rem;
     }
 
-    h3 {padding-top: 20px;
+    h3 {padding-top: 1.25rem;
     }
 
-    hr {margin: 20px auto;
+    hr {margin: 1.25rem auto;
     }
 
-    footer {padding: 15px 10px;
+    footer {padding: 0.938rem 0.625rem;
     }
 }
